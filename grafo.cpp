@@ -258,7 +258,7 @@ int main(){
             	cin.ignore(256, '\n');
             	cout << "Datos erroneos" << endl;
             	system("pause");
-            	return;
+            	return 0;
 			}
 			if(_Distancia <0 ){
 				_Distancia = _Distancia*-1;
